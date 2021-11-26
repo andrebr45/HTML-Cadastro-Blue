@@ -1,0 +1,69 @@
+* {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.cadastro {
+    border: 1px solid black;
+    align-items: center;
+    position:absolute;
+    top: 15%;
+    left: 0%;
+    right: 0%;
+    height:500px;
+    width: 800px;
+    display: flex;
+    
+    margin-bottom: 50%; 
+    border-radius: 15px;
+    background: linear-gradient(
+  90deg,
+  rgba(2, 0, 36, 1) 0%,
+  rgba(9, 9, 121, 1) 35%,
+  rgba(0, 212, 255, 1) 100%
+);
+
+}
+.dados {
+    color: white;
+    width: 250px;
+  
+    margin-right: 10%; 
+    margin-left: 10%;
+}
+.dados h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.dados p {
+    font-size: 18px;
+    font-weight: 300;
+}
+.re {
+     margin: auto;
+     color: white;
+}
+.re input {
+    display: block;
+    margin: 25px;
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.473);
+}
+.re input[type ="submit"] {
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.473);
+    margin-inline: 70px;
+}
+.re input[type ="submit"]:hover {
+    background-color: rgb(255, 255, 255);
+}
